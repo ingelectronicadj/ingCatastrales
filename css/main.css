@@ -1,56 +1,60 @@
 body {
-    font-family: "Montserrat";
+    font-family: Montserrat
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 700
 }
 
 .hr_title_home {
     height: 5px;
     width: 15%;
     margin: 0;
-    background-color: #fff;
+    background-color: #fff
 }
 
 h2 {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700
 }
 
 .menu-responsive {
     background-color: #000;
-    padding: 2rem 0;
+    padding: 2rem 0
 }
 
 .menu-responsive ul {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none
 }
 
 .menu-responsive ul li {
     width: 100%;
     padding: 1.5rem 0;
-    text-align: center;
+    text-align: center
 }
 
 .menu-responsive ul li a {
     font-size: 1.125rem;
     color: #fff;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
 }
 
-.menu-responsive ul li a:hover,
-.menu-responsive ul li a:active {
+.menu-responsive ul li a:active,
+.menu-responsive ul li a:hover {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none
+}
+
+.header__top--responsive {
+    position: fixed !important;
 }
 
 .header__top--responsive ul {
-    float: right;
+    float: right
 }
 
 .header__top--responsive ul li .menu-bars {
@@ -58,48 +62,48 @@ h2 {
     color: #fff;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
-    transition: all .3s;
+    transition: all .3s
 }
 
-.header__top--responsive ul li .menu-bars:hover,
-.header__top--responsive ul li .menu-bars:active {
-    color: #fff;
+.header__top--responsive ul li .menu-bars:active,
+.header__top--responsive ul li .menu-bars:hover {
+    color: #fff
 }
 
 header {
-    background-image: url("../img/fondo2.jpg");
+    background-image: url(https://ingenieroscatastrales.tk/img/fondo2.jpg)
 }
 
 .services {
-    background-image: url("../img/fondo.jpg");
+    background-image: url(https://ingenieroscatastrales.tk/img/fondo.jpg)
 }
 
 .aboutUs {
-    background-image: url("../img/fondo3.jpg");
+    background-image: url(https://ingenieroscatastrales.tk/img/fondo3.jpg)
 }
 
 .team {
-    background-image: url("../img/fondo4.jpg");
+    background-image: url(https://ingenieroscatastrales.tk/img/fondo4.jpg)
 }
 
 .contactForm {
-    background-image: url("../img/fondo5.jpg");
+    background-image: url(https://ingenieroscatastrales.tk/img/fondo5.jpg)
 }
 
-header,
-.contactForm,
-.team,
 .aboutUs,
-.services {
+.contactForm,
+.services,
+.team,
+header {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top
 }
 
 .header__top {
     padding-top: 2.5rem;
-    margin-bottom: 11rem;
+    margin-bottom: 30%;
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -112,23 +116,23 @@ header,
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .header__top-nav ul {
     float: left;
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none
 }
 
 .header__top-nav ul li {
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 1rem
 }
 
 .header__top-nav ul li:last-child {
-    margin-right: 0;
+    margin-right: 0
 }
 
 .header__top-nav ul li a {
@@ -136,15 +140,15 @@ header,
     color: #fff;
     line-height: 2.5rem;
     font-weight: 300;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
 }
 
-.header__top-nav ul li a:hover,
-.header__top-nav ul li a:active {
-    color: #cccccc;
-    text-decoration: none;
+.header__top-nav ul li a:active,
+.header__top-nav ul li a:hover {
+    color: #ccc;
+    text-decoration: none
 }
 
 .header__content {
@@ -152,72 +156,68 @@ header,
     margin: 0;
     color: #fff;
     font-size: 5rem;
-    text-align: left;
+    text-align: left
 }
 
 .header__content p {
-    line-height: 2.25rem;
+    line-height: 2.25rem
 }
 
 .header__content p:first-child {
-    line-height: 3.3rem;
-}
-
-.header__content .btn {
-    margin-top: 3rem;
+    line-height: 3.3rem
 }
 
 .header__arrow {
     margin-top: 10rem;
-    text-align: center;
+    text-align: center
 }
 
 .header__arrow a,
 .header__arrow a:hover {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.5rem
 }
 
 .header__arrow a i {
     -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
+    animation: bounce 2s infinite
 }
 
 @-webkit-keyframes bounce {
     0%,
+    100%,
     20%,
-    60%,
-    100% {
+    60% {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        transform: translateY(0)
     }
     40%,
     43% {
         -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
+        transform: translateY(-30px)
     }
     75% {
         -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        transform: translateY(-20px)
     }
 }
 
 @keyframes bounce {
     0%,
+    100%,
     20%,
-    60%,
-    100% {
+    60% {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        transform: translateY(0)
     }
     40%,
     43% {
         -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
+        transform: translateY(-30px)
     }
     75% {
         -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        transform: translateY(-20px)
     }
 }
 
@@ -226,136 +226,49 @@ header,
     border-radius: 100%;
     padding: .2rem;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem
 }
 
 #id_services p {
     font-size: 1.25rem;
-    color: #232323;
+    color: #232323
 }
 
 #id_services p a {
     color: #232323;
     text-decoration: underline;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-#id_services p a:hover {
-    color: #00ff6c;
-}
-
-#id_services p+p {
-    margin-bottom: 2rem;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
 }
 
 #id_team hr {
-    margin-bottom: 3rem;
-}
-
-#id_team figure {
-    position: relative;
-}
-
-#id_team figure img {
-    width: 100%;
-}
-
-#id_team figure figcaption {
-    position: absolute;
-    top: .75rem;
-    right: .75rem;
-    bottom: .75rem;
-    left: .75rem;
-    background-color: #00ff6c;
-    padding-top: 4rem;
-    opacity: 0;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    color: #232323;
-}
-
-#id_team figure figcaption:hover {
-    background-color: rgba(0, 255, 108, 0.6);
-    opacity: 1;
-}
-
-#id_team figure figcaption h3 {
-    text-transform: uppercase;
-}
-
-#id_team figure figcaption p {
-    margin-bottom: 3rem;
-}
-
-#id_team figure figcaption a {
-    font-size: 2rem;
-    color: #f3f3f3;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-#id_team figure figcaption a:hover {
-    color: #232323;
+    margin-bottom: 3rem
 }
 
 #contact {
     padding: 5rem 0;
-    text-align: center;
+    text-align: center
 }
 
 #contact h2 {
-    color: #fff;
+    color: #fff
 }
 
 #contact p {
     font-size: 1.65rem;
-    font-weight: 300;
-}
-
-#contact .text-animate {
-    font-weight: 700;
-}
-
-#contact .btn {
-    margin-top: 2.5rem;
-    border: 2px solid #232323;
-    color: #232323;
-}
-
-#contact .btn:hover {
-    background-color: #232323;
-    color: #00ff6c;
-}
-
-#contact .contact__social {
-    margin-top: 3rem;
-    font-size: 2rem;
-}
-
-#contact .contact__social a {
-    color: #232323;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
-#contact .contact__social a:hover {
-    color: #fff;
+    font-weight: 300
 }
 
 #footer {
     padding: .5rem 0;
     background-color: #232323;
     text-align: center;
-    color: #fff;
+    color: #fff
 }
 
 #footer p {
-    font-size: .85rem;
+    font-size: .85rem
 }
 
 #footer p a {
@@ -363,13 +276,46 @@ header,
     text-decoration: underline;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
-    transition: all .3s;
+    transition: all .3s
 }
 
 #footer p a:hover {
-    color: #00ff6c;
+    color: #00ff6c
 }
 
 #footer p .fa-heart {
-    color: red;
+    color: red
 }
+
+
+/******* MEDIA QUERIES PARA TV *******/
+
+@media screen and (min-width:1920px) {}
+
+@media screen and (min-width:2560px) {}
+
+
+/******* MEDIA QUERIES PARA COMPUTADORAS *******/
+
+@media screen and (max-width:1440px) {}
+
+
+/******* MEDIA QUERIES PARA PORTATILES *******/
+
+@media screen and (max-width:1366px) {}
+
+@media screen and (max-width:1024px) {}
+
+
+/******* MEDIA QUERIE PARA TABLETS *******/
+
+@media screen and (max-width:768px) {}
+
+
+/******* MEDIA QUERIES PARA CELULARES *******/
+
+@media screen and (max-width:425px) {}
+
+@media screen and (max-width:375px) {}
+
+@media screen and (max-width:320px) {}

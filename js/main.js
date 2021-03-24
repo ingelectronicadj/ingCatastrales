@@ -10,6 +10,7 @@ $(function() {
 
     // Scroll click on menu
     $(".scroll").on("click", function() {
+        $(".menu-responsive").hide();
         $(this).each(function() {
             const sectionTop = $(this.hash).offset().top;
             $("html, body").animate({
