@@ -21,7 +21,6 @@ $(function() {
 
 });
 
-//Boton para ir hacia arriba
 var btn = $('#buttonBackToTop');
 
 $(window).scroll(function() {

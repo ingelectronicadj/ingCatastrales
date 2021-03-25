@@ -338,11 +338,7 @@ header {
 
 /******* MEDIA QUERIES PARA PORTATILES *******/
 
-@media screen and (max-width:1366px) {
-    .header__top {
-        margin-bottom: 20%;
-    }
-}
+@media screen and (max-width:1366px) {}
 
 @media screen and (max-width:1024px) {}
 
