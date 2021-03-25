@@ -9,13 +9,20 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Diego Javier Mena Amado">
-
     <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Loader Style -->
+    <link rel="stylesheet" href="css/loader.css">
+    <script src="js/loader.js"></script>
+
+    <!-- Font Style -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
     <!--Iconos fa fa-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
 
     <!--Progresive Web Aplication-->
     <meta name="MobileOptimized" content="width">
@@ -23,9 +30,27 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000">
+
 </head>
 
 <body>
+    <!-- Loader -->
+    <div class="loaderContainer" id="loader">
+        <div class="loader">
+            <div class="face">
+                <div class="circle"></div>
+            </div>
+            <div class="face">
+                <div class="circle"></div>
+            </div>
+            <div class="face">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Menu Mobile -->
     <div class="menu-responsive">
         <nav>
             <ul>
@@ -42,10 +67,6 @@
         <div class="container">
             <div class="row">
                 <div class="header__top">
-                    <!--<div class="col-md-2 header__top-brand">
-                        <h1><span class="bold">Cyril</span> Gouverneur</h1>
-                        <hr>
-                    </div>-->
                     <nav class="col-md-12 header__top-nav hidden-md-down">
                         <ul>
                             <li><a class="scroll" href="#id_start">Inicio</a></li>
@@ -143,7 +164,7 @@
         <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://diegiot.tk" target="_blank">Diego Mena</a> <i class="fa fa-copyright" aria-hidden="true"></i> 2021</p>
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="js/main.js"></script>
 </body>
