@@ -67,23 +67,23 @@ h2 {
 }
 
 header {
-    background-image: url(https://ingenieroscatastrales.tk/img/fondo2.jpg)
+    background-image: url(../img/fondoInicio.webp)
 }
 
 .services {
-    background-image: url(https://ingenieroscatastrales.tk/img/fondo.jpg)
+    background-image: url(../img/fondoServicios.webp)
 }
 
 .aboutUs {
-    background-image: url(https://ingenieroscatastrales.tk/img/fondo3.jpg)
+    background-image: url(../img/fondoSobreNosotros.webp)
 }
 
 .team {
-    background-image: url(https://ingenieroscatastrales.tk/img/fondo4.jpg)
+    background-image: url(../img/fondoEquipo.webp)
 }
 
 .contactForm {
-    background-image: url(https://ingenieroscatastrales.tk/img/fondo5.jpg)
+    background-image: url(../img/fondoDeContacto.webp)
 }
 
 .aboutUs,
