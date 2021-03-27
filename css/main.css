@@ -122,8 +122,47 @@ header {
     flex-wrap: wrap;
 }
 
-#contact h2,
 #id_team h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+}
+
+.container-team {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 30%;
+    text-align: right;
+}
+
+.team-member img {
+    margin: 0 10px;
+    width: 110px;
+}
+
+.team-description {
+    width: 70%;
+    color: #fff;
+}
+
+.team-description h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.legend-member {
+    font-size: 0.8rem;
+}
+
+#contact h2 {
     font-weight: 700;
     font-size: 2.5rem;
     color: #fff;
@@ -421,6 +460,12 @@ header {
     .intro-section-description {
         font-size: 0.9rem;
     }
+    .team-description h3 {
+        font-size: 1.2rem;
+    }
+    .legend-member {
+        font-size: 0.7rem;
+    }
 }
 
 
@@ -451,6 +496,9 @@ header {
     .contact-icon img {
         width: 30px;
     }
+    .team-member img {
+        width: 94px;
+    }
 }
 
 
@@ -480,6 +528,15 @@ header {
         font-size: 2.5rem;
         color: #fff;
         text-align: center;
+    }
+    .team-member,
+    .team-description {
+        width: 100%;
+        text-align: center;
+        margin: 2px 0;
+    }
+    .legend-member {
+        display: none;
     }
     .container-contact {
         width: 100%;
