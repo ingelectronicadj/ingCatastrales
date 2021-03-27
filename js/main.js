@@ -1,7 +1,9 @@
 $(function() {
 
     // Menu Responsive
+    document.querySelector(".menu-responsive").style.visibility = "hidden";
     $(".menu-responsive").toggle();
+    document.querySelector(".menu-responsive").style.visibility = "visible";
 
     $(".menu-bars").on("click", function() {
         $(".menu-responsive").toggle("slow");
