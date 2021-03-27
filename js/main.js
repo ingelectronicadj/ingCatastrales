@@ -23,13 +23,17 @@ $(function() {
 
 });
 
+// boton para ir arriba y boton para whatsapp
 var btn = $('#buttonBackToTop');
+var btn2 = $('#id_whatsapp');
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 300) {
         btn.addClass('show');
+        btn2.addClass('show');
     } else {
         btn.removeClass('show');
+        btn2.removeClass('show');
     }
 });
 
