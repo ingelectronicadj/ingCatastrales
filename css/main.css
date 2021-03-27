@@ -14,11 +14,6 @@ body {
     background-color: #fff
 }
 
-h2 {
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
 .menu-responsive {
     background-color: #020F14;
     padding: 2rem 0
@@ -95,6 +90,47 @@ header {
     background-position: top;
 }
 
+.container-intro-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+
+.intro-section-title {
+    width: 20%;
+    color: #fff;
+}
+
+.intro-section-title h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.vl {
+    border-left: 2px solid #fff;
+    height: 80px;
+}
+
+.intro-section-description {
+    width: 60%;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 2%;
+    flex-wrap: wrap;
+}
+
+#contact h2,
+#id_team h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
 #buttonBackToTop {
     display: inline-block;
     background-color: #8CBF44;
@@ -160,7 +196,6 @@ header {
 
 .header__top {
     padding-top: 2.5rem;
-    margin-bottom: 30%;
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -217,20 +252,16 @@ header {
     text-decoration: none;
 }
 
-.header__content {
+.header__content h1 {
     width: 80%;
-    margin: 0;
+    margin-top: 20%;
     color: #fff;
     font-size: 5rem;
     text-align: left;
 }
 
-.header__content p {
-    line-height: 2.25rem;
-}
-
-.header__content p:first-child {
-    line-height: 3.3rem;
+.header__content h1:first-child {
+    line-height: 5rem;
 }
 
 .header__arrow {
@@ -295,30 +326,12 @@ header {
     margin-bottom: 2rem;
 }
 
-#id_services p {
-    font-size: 1.25rem;
-    color: #232323;
-}
-
 #id_services p a {
     color: #232323;
     text-decoration: underline;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-}
-
-#id_team hr {
-    margin-bottom: 3rem;
-}
-
-#contact {
-    padding: 5rem 0;
-    text-align: center;
-}
-
-#contact h2 {
-    color: #fff;
 }
 
 #contact p {
@@ -369,14 +382,20 @@ header {
 /******* MEDIA QUERIES PARA PORTATILES *******/
 
 @media screen and (max-width:1366px) {
-    .header__top {
-        margin-bottom: 20%;
+    .hr_title_home {
+        width: 13%;
     }
 }
 
 @media screen and (max-width:1024px) {
     .hr_title_home {
         width: 20%;
+    }
+    .intro-section-title h2 {
+        font-size: 2rem;
+    }
+    .intro-section-description {
+        font-size: 0.9rem;
     }
 }
 
@@ -389,6 +408,15 @@ header {
     }
     .hr_title_home {
         width: 25%;
+    }
+    .vl {
+        height: 70px;
+    }
+    .intro-section-title h2 {
+        font-size: 1.5rem;
+    }
+    .intro-section-description {
+        font-size: 0.8rem;
     }
 }
 
@@ -404,6 +432,16 @@ header {
     }
     .hr_title_home {
         width: 35%;
+    }
+    .intro-section-title {
+        text-align: center;
+        width: 100%;
+    }
+    .intro-section-description {
+        width: 100%;
+    }
+    .vl {
+        display: none;
     }
 }
 
