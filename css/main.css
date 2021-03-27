@@ -496,6 +496,9 @@ header {
     #contact p {
         font-size: 1.5rem;
     }
+    .email {
+        font-size: 1rem !important;
+    }
 }
 
 @media screen and (max-width:375px) {
