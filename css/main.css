@@ -68,15 +68,15 @@ header {
 }
 
 .services {
-    background-image: url(../img/fondoServicios.webp)
+    background-image: url(../img/fondoServicios.webp);
 }
 
 .team {
-    background-image: url(../img/fondoEquipo.webp)
+    background-image: url(../img/fondoEquipo.webp);
 }
 
 .contactForm {
-    background-image: url(../img/fondoDeContacto.webp)
+    background-image: url(../img/fondoDeContacto.webp);
 }
 
 .aboutUs,
@@ -120,6 +120,38 @@ header {
     font-size: 1rem;
     margin-left: 2%;
     flex-wrap: wrap;
+}
+
+.container-business-identity {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.business-identity-card {
+    width: 50%;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.container-card-description {
+    width: 400px;
+    color: #fff;
+    background-image: url(../img/fondoDeTarjeta.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.card-description {
+    padding: 30px;
 }
 
 #id_team h2 {
@@ -487,6 +519,16 @@ header {
     .intro-section-description {
         font-size: 0.8rem;
     }
+    .container-card-description {
+        width: 290px;
+    }
+    .card-title {
+        font-size: 3rem;
+    }
+    .card-description {
+        font-size: 0.8rem;
+        padding: 20px;
+    }
     .contact-icon {
         width: 30%;
     }
@@ -522,6 +564,18 @@ header {
     }
     .vl {
         display: none;
+    }
+    .business-identity-card {
+        width: 100%;
+    }
+    .card-title {
+        font-size: 2.5rem;
+    }
+    .card-description {
+        padding: 5px 15px;
+    }
+    .container-card-description {
+        width: 350px;
     }
     .intro-section-title h2 {
         font-weight: 700;
@@ -569,6 +623,9 @@ header {
     #contact p {
         font-size: 1.4rem;
     }
+    .container-card-description {
+        width: 340px;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -580,5 +637,8 @@ header {
     }
     .contact-icon img {
         width: 20px;
+    }
+    .container-card-description {
+        width: 310px;
     }
 }
