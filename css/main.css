@@ -178,6 +178,7 @@ header {
 .team-member img {
     margin: 0 10px;
     width: 110px;
+    border-radius: 5px;
 }
 
 .team-description {
@@ -554,7 +555,7 @@ header {
         font-size: 4rem;
     }
     .header__content h1 {
-        margin-top: 25%;
+        margin-top: 30%;
     }
     .hr_title_home {
         width: 35%;
@@ -588,7 +589,7 @@ header {
     }
     #id_team h2 {
         text-align: center;
-        padding: 2.5rem 0 1.5rem 0;
+        padding: 2rem 0 1.5rem 0;
     }
     .team-member,
     .team-description {
