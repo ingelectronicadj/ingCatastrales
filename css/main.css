@@ -122,6 +122,15 @@ header {
     flex-wrap: wrap;
 }
 
+.carousel {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.container-carousel img {
+    width: 100%;
+}
+
 .container-business-identity {
     display: flex;
     width: 100%;
@@ -413,22 +422,6 @@ header {
     }
 }
 
-#id_services img {
-    border: 2px solid #232323;
-    border-radius: 100%;
-    padding: .2rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-}
-
-#id_services p a {
-    color: #232323;
-    text-decoration: underline;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
 #contact p {
     font-size: 1.65rem;
     font-weight: 300;
@@ -558,7 +551,7 @@ header {
         margin-top: 30%;
     }
     .hr_title_home {
-        width: 35%;
+        width: 45%;
     }
     .intro-section-title {
         width: 100%;
