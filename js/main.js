@@ -61,14 +61,14 @@ $(document).ready(function() {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        dots: true,
+        dots: false,
         centerMode: true,
         responsive: [{
             breakpoint: 800,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                dots: true,
+                dots: false,
                 infinite: true,
 
             }
@@ -77,11 +77,24 @@ $(document).ready(function() {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: true,
+                dots: false,
                 infinite: true,
                 autoplay: true,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 3000,
             }
         }]
     });
 });
+
+
+function descriptionMember(id_member) {
+    var nameMember = document.getElementById(id_member).children[1].children[0].textContent;
+    var descriptionMember = document.getElementById(id_member).children[1].children[1].textContent;
+
+    Swal.fire({
+        background: '#021013',
+        html: '<h3 style="color:#fff;font-weight:600;">' + nameMember + '</h3> <p style="color:#fff;">' + descriptionMember + '</p>',
+        showCloseButton: true,
+        showConfirmButton: false
+    });
+}
