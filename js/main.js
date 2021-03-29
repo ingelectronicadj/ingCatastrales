@@ -90,11 +90,22 @@ $(document).ready(function() {
 function descriptionMember(id_member) {
     var nameMember = document.getElementById(id_member).children[1].children[0].textContent;
     var descriptionMember = document.getElementById(id_member).children[1].children[1].textContent;
-
     Swal.fire({
         background: '#021013',
         html: '<h3 style="color:#fff;font-weight:600;">' + nameMember + '</h3> <p style="color:#fff;">' + descriptionMember + '</p>',
         showCloseButton: true,
         showConfirmButton: false
+    });
+}
+
+function showServiceModal(id_service) {
+    altTxt = document.getElementById(id_service).children[0].alt;
+    urlImg = document.getElementById(id_service).children[0].src;
+    Swal.fire({
+        background: '#021013',
+        showCloseButton: true,
+        showConfirmButton: false,
+        imageUrl: urlImg,
+        imageAlt: altTxt
     });
 }
