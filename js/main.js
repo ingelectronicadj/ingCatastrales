@@ -21,6 +21,16 @@ $(function() {
         });
     });
 
+    // Text Animate
+    const sentences = ["Avalúos", "Sistemas Geográficos - SIG", "Visores de Mapas", "Levantamientos Topográficos", "Drones", "Licencias Urbanísticas"];
+    let i = 0;
+
+    setInterval(function() {
+        $(".text-animate").fadeOut(function() {
+            $(this).text(sentences[i = (i + 1) % sentences.length]).fadeIn();
+        });
+    }, 2500);
+
 });
 
 // boton para ir arriba y boton para whatsapp
