@@ -55,6 +55,14 @@ body {
     margin-left: 10%;
 }
 
+.submenu-icon i {
+    width: 15%;
+}
+
+.submenu li {
+    color: #fff;
+}
+
 .header__top--responsive ul {
     float: right;
 }

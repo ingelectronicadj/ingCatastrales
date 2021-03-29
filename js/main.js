@@ -9,6 +9,10 @@ $(function() {
         $(".menu-responsive").toggle("slow");
     });
 
+    $(".submenu-icon").on("click", function() {
+        $(".submenu").toggle("slow");
+    });
+
 
     // Scroll click on menu
     $(".scroll").on("click", function() {
