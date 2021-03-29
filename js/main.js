@@ -9,6 +9,14 @@ $(function() {
         $(".menu-responsive").toggle("slow");
     });
 
+    $(".submenu-icon-movil").on("click", function() {
+        $(".submenu-movil").toggle("slow");
+    });
+
+    $(".submenu-icon").on("click", function() {
+        $(".submenu").toggle("slow");
+    });
+
 
     // Scroll click on menu
     $(".scroll").on("click", function() {
