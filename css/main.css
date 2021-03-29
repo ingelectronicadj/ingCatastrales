@@ -50,7 +50,7 @@ body {
 }
 
 .submenu-icon-movil {
-    font-size: 28px;
+    font-size: 1.125rem;
     color: #fff;
     margin-left: 5%;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .submenu-icon {
-    font-size: 28px;
+    font-size: 1.25rem;
     color: #fff;
     margin-left: 5px;
     cursor: pointer;
