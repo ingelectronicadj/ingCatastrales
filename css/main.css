@@ -45,6 +45,16 @@ body {
     text-decoration: none;
 }
 
+.submenu {
+    display: none;
+}
+
+.submenu-icon {
+    font-size: 28px;
+    color: #fff;
+    margin-left: 10%;
+}
+
 .header__top--responsive ul {
     float: right;
 }
