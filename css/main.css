@@ -123,7 +123,7 @@ header {
 }
 
 .carousel {
-    width: 70%;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -137,6 +137,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .business-identity-card {
@@ -167,8 +168,8 @@ header {
     font-weight: 700;
     font-size: 2.5rem;
     color: #fff;
-    padding: 0;
-    text-align: right;
+    padding: 3rem 0;
+    text-align: center;
 }
 
 .container-team {
@@ -185,8 +186,8 @@ header {
 }
 
 .team-member img {
-    margin: 0 10px;
-    width: 110px;
+    margin: 5px 15px;
+    width: 140px;
     border-radius: 5px;
 }
 
@@ -201,7 +202,7 @@ header {
 }
 
 .legend-member {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 #contact h2 {
@@ -263,13 +264,13 @@ header {
     width: 20%;
     border: 2px #fff;
     border-style: solid;
-    margin: 5px 10px;
+    margin: 50px 20px 0 10px;
     padding: 4px 4px 0 4px;
 }
 
 .iframe-map {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border: 0;
 }
 
@@ -396,7 +397,7 @@ header {
 
 .header__content h1 {
     width: 100%;
-    margin-top: 20%;
+    margin-top: 30%;
     color: #fff;
     font-size: 4rem;
     text-align: left;
@@ -503,7 +504,35 @@ header {
 
 /******* MEDIA QUERIES PARA COMPUTADORAS *******/
 
-@media screen and (max-width:1440px) {}
+@media screen and (max-width:1440px) {
+    .header__content h1 {
+        margin-top: 20%;
+    }
+    #id_team h2 {
+        padding: 0;
+        text-align: right;
+    }
+    .container-map-city {
+        width: 20%;
+        margin: 5px 10px;
+    }
+    .iframe-map {
+        height: 200px;
+    }
+    .team-member img {
+        margin: 0 10px;
+        width: 110px;
+    }
+    .legend-member {
+        font-size: 0.8rem;
+    }
+    .container-business-identity {
+        margin-top: 0px;
+    }
+    .carousel {
+        width: 70%;
+    }
+}
 
 
 /******* MEDIA QUERIES PARA PORTATILES *******/
@@ -593,12 +622,10 @@ header {
     }
     .header__content h1 {
         font-size: 2.5rem;
+        margin-top: 40%;
     }
     .header__content h1:first-child {
         line-height: 2.2rem;
-    }
-    .header__content h1 {
-        margin-top: 30%;
     }
     .hr_title_home {
         display: none;
