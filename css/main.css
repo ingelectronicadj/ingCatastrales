@@ -45,22 +45,41 @@ body {
     text-decoration: none;
 }
 
-.submenu {
+.submenu-movil {
     display: none;
+}
+
+.submenu-icon-movil {
+    font-size: 28px;
+    color: #fff;
+    margin-left: 5%;
+}
+
+.submenu-icon-movil i {
+    width: 10%;
+}
+
+.submenu-movil li {
+    color: #fff;
 }
 
 .submenu-icon {
     font-size: 28px;
     color: #fff;
-    margin-left: 10%;
+    margin-left: 5px;
+    cursor: pointer;
 }
 
-.submenu-icon i {
-    width: 15%;
+.submenu {
+    position: absolute;
+    left: 25%;
+    border: 2px solid #fff;
+    display: none;
 }
 
 .submenu li {
     color: #fff;
+    padding: 2px 15px;
 }
 
 .header__top--responsive ul {
