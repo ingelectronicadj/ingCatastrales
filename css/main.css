@@ -212,15 +212,27 @@ header {
     text-align: center;
 }
 
+.allwidth {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-contact-column {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
 .container-contact {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .contact-icon {
-    width: 50%;
+    width: 20%;
     text-align: right;
 }
 
@@ -230,7 +242,7 @@ header {
 }
 
 .contact-description {
-    width: 50%;
+    width: 80%;
     color: #fff;
     font-size: 1rem;
 }
@@ -492,6 +504,9 @@ header {
     .legend-member {
         font-size: 0.7rem;
     }
+    #contact p {
+        font-size: 1.3rem;
+    }
 }
 
 
@@ -534,6 +549,9 @@ header {
     }
     .team-member img {
         width: 94px;
+    }
+    #contact p {
+        font-size: 1rem;
     }
 }
 
@@ -616,6 +634,9 @@ header {
     }
     .email {
         font-size: 1rem !important;
+    }
+    .container-contact-column {
+        width: 100%;
     }
 }
 
