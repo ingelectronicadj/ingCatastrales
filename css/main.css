@@ -247,6 +247,21 @@ header {
     font-size: 1rem;
 }
 
+.container-maps {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-map-city {
+    width: 20%;
+    border: 2px #fff;
+    border-style: solid;
+    margin: 5px 10px;
+    padding: 4px 4px 0 4px;
+}
+
 #buttonBackToTop {
     display: inline-block;
     background-color: #8CBF44;
