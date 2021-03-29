@@ -149,6 +149,7 @@ header {
 .vl {
     border-left: 2px solid #fff;
     height: 80px;
+    margin: 0 10px;
 }
 
 .intro-section-description {
