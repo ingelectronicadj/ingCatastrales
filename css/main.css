@@ -132,7 +132,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 4%;
     flex-wrap: wrap;
 }
 
@@ -388,7 +388,7 @@ header {
 }
 
 .header__top {
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
