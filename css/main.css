@@ -137,14 +137,13 @@ header {
 }
 
 .intro-section-title {
-    width: 25%;
+    width: 20%;
     color: #fff;
 }
 
 .intro-section-title h2 {
     font-weight: 700;
     font-size: 2.5rem;
-    text-transform: uppercase;
 }
 
 .vl {
@@ -209,7 +208,6 @@ header {
     color: #fff;
     padding: 3rem 0;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .container-team {
@@ -263,7 +261,6 @@ header {
     color: #fff;
     padding: 4rem 0 1.5rem 0;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .allwidth {
