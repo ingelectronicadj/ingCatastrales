@@ -659,6 +659,9 @@ header {
     #contact p {
         font-size: 1rem;
     }
+    .carousel {
+        width: 70%;
+    }
 }
 
 
