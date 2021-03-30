@@ -65,7 +65,7 @@ btn.on('click', function(e) {
 $(document).ready(function() {
     $('.carousel').slick({
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,

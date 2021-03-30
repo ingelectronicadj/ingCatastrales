@@ -137,13 +137,14 @@ header {
 }
 
 .intro-section-title {
-    width: 20%;
+    width: 25%;
     color: #fff;
 }
 
 .intro-section-title h2 {
     font-weight: 700;
     font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 .vl {
@@ -155,7 +156,7 @@ header {
 .intro-section-description {
     width: 60%;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-left: 2%;
     flex-wrap: wrap;
 }
@@ -208,6 +209,7 @@ header {
     color: #fff;
     padding: 3rem 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .container-team {
@@ -219,7 +221,7 @@ header {
 }
 
 .team-member {
-    width: 30%;
+    width: 15%;
     text-align: right;
 }
 
@@ -243,6 +245,14 @@ header {
     border: 2px solid #fff !important;
 }
 
+.swal2-image {
+    margin: 0 !important;
+}
+
+.swal2-popup {
+    padding: 0.25em !important;
+}
+
 .legend-member {
     font-size: 1rem;
 }
@@ -253,6 +263,7 @@ header {
     color: #fff;
     padding: 4rem 0 1.5rem 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .allwidth {
@@ -572,7 +583,7 @@ header {
         margin-top: 0px;
     }
     .carousel {
-        width: 70%;
+        width: 49%;
     }
 }
 
