@@ -72,7 +72,7 @@ body {
 
 .submenu {
     position: absolute;
-    left: 25%;
+    left: 10%;
     border: 2px solid #fff;
     display: none;
 }
@@ -161,12 +161,18 @@ header {
 }
 
 .carousel {
-    width: 70%;
+    width: 100%;
     margin: 0px auto;
+}
+
+.container-carousel {
+    padding-left: 5%;
 }
 
 .container-carousel img {
     width: 100%;
+    box-shadow: 10px 10px 21px #8CBF44;
+    border-radius: 20px;
 }
 
 .container-business-identity {
@@ -547,9 +553,13 @@ header {
 
 /******* MEDIA QUERIES PARA TV *******/
 
-@media screen and (min-width:1920px) {}
-
 @media screen and (min-width:2560px) {}
+
+@media screen and (min-width:1920px) {
+    .header__content h1 {
+        margin-top: 22%;
+    }
+}
 
 
 /******* MEDIA QUERIES PARA COMPUTADORAS *******/
@@ -581,7 +591,7 @@ header {
         margin-top: 0px;
     }
     .carousel {
-        width: 49%;
+        width: 85%;
     }
 }
 
@@ -660,7 +670,7 @@ header {
         font-size: 1rem;
     }
     .carousel {
-        width: 70%;
+        width: 90%;
     }
 }
 

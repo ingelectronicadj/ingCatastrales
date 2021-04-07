@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <!--Slick Corousel Style-->
     <link rel="stylesheet" href="css/slick.css">
@@ -61,11 +61,13 @@
         <div class="container">
             <div class="row">
                 <div class="header__top">
-                    <nav class="col-md-12 header__top-nav hidden-md-down">
+                    <div class="col-md-2">
+                        <a href="index.html">
+                            <img style="width: 100%;" src="./img/logo-corporativo.png" alt="Logo corporativos Ingenieros Catastrales SAS">
+                        </a>
+                    </div>
+                    <nav class="col-md-10 header__top-nav hidden-md-down">
                         <ul>
-                            <li>
-                                <a href="#"><img class="logo-desktop" src="./img/logo.webp" alt="Logo Ingenieros Catastrales SAS"></a>
-                            </li>
                             <li><a class="scroll" href="#id_start">Inicio</a></li>
                             <li><a class="scroll" href="#id_services">Servicios</a><span class="submenu-icon"><i class="fa fa-caret-down"></i></span></li>
                             <ul class="submenu">
@@ -78,7 +80,6 @@
                         </ul>
                     </nav>
                     <nav class="col-md-12 header__top--responsive hidden-lg-up">
-                        <img class="logo-mobile" src="./img/logo-corporativo.png" alt="Logo Ingenieros Catastrales SAS">
                         <ul>
                             <li><a class="menu-bars" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
                         </ul>
@@ -133,22 +134,22 @@
             </div>
             <div class="carousel">
                 <div class="container-carousel" id="id_service_1">
-                    <img onclick="showServiceModal('id_service_1')" src="img/services/avaluos-comerciales.png" alt="Servicio en avalúos comerciales">
+                    <img onclick="showServiceModal('id_service_1')" src="img/services/tarjeta.png" alt="Servicio en avalúos comerciales">
                 </div>
                 <div class="container-carousel" id="id_service_2">
-                    <img onclick="showServiceModal('id_service_2')" src="img/services/actividades-inmobiliarias.png" alt="Servicio de actividad inmobiliaria">
+                    <img onclick="showServiceModal('id_service_2')" src="img/services/tarjeta.png" alt="Servicio de actividad inmobiliaria">
                 </div>
                 <div class="container-carousel" id="id_service_3">
-                    <img onclick="showServiceModal('id_service_3')" src="img/services/sistemas-sig.png" alt="Servicio en Sistemas de información geográfica - SIG">
+                    <img onclick="showServiceModal('id_service_3')" src="img/services/tarjeta.png" alt="Servicio en Sistemas de información geográfica - SIG">
                 </div>
                 <div class="container-carousel" id="id_service_4">
-                    <img onclick="showServiceModal('id_service_4')" src="img/services/aplicaciones.png" alt="Servicio de aplicaciones y visores de mapas">
+                    <img onclick="showServiceModal('id_service_4')" src="img/services/tarjeta.png" alt="Servicio de aplicaciones y visores de mapas">
                 </div>
                 <div class="container-carousel" id="id_service_5">
-                    <img onclick="showServiceModal('id_service_5')" src="img/services/cartografia.png" alt="Servicio de cartografía">
+                    <img onclick="showServiceModal('id_service_5')" src="img/services/tarjeta.png" alt="Servicio de cartografía">
                 </div>
                 <div class="container-carousel" id="id_service_6">
-                    <img onclick="showServiceModal('id_service_6')" src="img/services/drones.png" alt="Servicio de Drones e imágenes aéreas">
+                    <img onclick="showServiceModal('id_service_6')" src="img/services/tarjeta.png" alt="Servicio de Drones e imágenes aéreas">
                 </div>
             </div>
         </div>
@@ -369,7 +370,7 @@
     <!--SweatAlert2-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <!--Javascript principal de logica funcional-->
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
