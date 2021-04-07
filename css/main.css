@@ -602,6 +602,12 @@ header {
     .hr_title_home {
         width: 13%;
     }
+    .header__content h1 {
+        margin-top: 15%;
+    }
+    .carousel {
+        width: 95%;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -622,6 +628,9 @@ header {
     }
     #contact p {
         font-size: 1.3rem;
+    }
+    .carousel {
+        width: 75%;
     }
 }
 
@@ -670,7 +679,7 @@ header {
         font-size: 1rem;
     }
     .carousel {
-        width: 90%;
+        width: 80%;
     }
 }
 
