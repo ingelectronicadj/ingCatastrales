@@ -8,8 +8,12 @@ $(function() {
     $(".menu-bars").on("click", function() {
         $(".menu-responsive").toggle("slow");
     });
-
+    // Trancision para desplegar opciones de submenu movil
     $(".submenu-icon-movil").on("click", function() {
+        $(".submenu-movil").toggle("slow");
+    });
+    // Transicion para cerrar submenu movil al clic de una opcion
+    $(".submenu-icon-movil li").on("click", function() {
         $(".submenu-movil").toggle("slow");
     });
     // Trancision para desplegar opciones de submenu
@@ -71,8 +75,8 @@ $(document).ready(function() {
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
-        //autoplay: true,
-        //autoplaySpeed: 3000,
+        autoplay: true,
+        autoplaySpeed: 3000,
         dots: false,
         centerMode: true,
         responsive: [{
