@@ -72,9 +72,13 @@ body {
 
 .submenu {
     position: absolute;
-    left: 10%;
+    left: 25%;
     border: 2px solid #fff;
     display: none;
+}
+
+#first_submenu {
+    left: 10%;
 }
 
 .submenu li {
@@ -151,12 +155,32 @@ header {
     background-image: url(../img/services/6.png);
 }
 
+.course_1 {
+    background-image: url(../img/services/c1.png);
+}
+
+.course_2 {
+    background-image: url(../img/services/c2.png);
+}
+
+.course_3 {
+    background-image: url(../img/services/c3.png);
+}
+
+.course_4 {
+    background-image: url(../img/services/c4.png);
+}
+
 .service_1,
 .service_2,
 .service_3,
 .service_4,
 .service_5,
-.service_6 {
+.service_6,
+.course_1,
+.course_2,
+.course_3,
+.course_4 {
     background-size: 100% 350px;
     height: 350px;
 }
@@ -249,7 +273,7 @@ header {
 }
 
 .card-description {
-    padding: 30px;
+    padding: 25px;
 }
 
 #id_team h2 {
@@ -742,7 +766,11 @@ header {
     .service_3,
     .service_4,
     .service_5,
-    .service_6 {
+    .service_6,
+    .course_1,
+    .course_2,
+    .course_3,
+    .course_4 {
         background-size: 100% 300px;
         height: 300px;
     }
@@ -844,7 +872,11 @@ header {
     .service_3,
     .service_4,
     .service_5,
-    .service_6 {
+    .service_6,
+    .course_1,
+    .course_2,
+    .course_3,
+    .course_4 {
         background-size: 100% 280px;
         height: 280px;
     }
@@ -876,7 +908,11 @@ header {
     .service_3,
     .service_4,
     .service_5,
-    .service_6 {
+    .service_6,
+    .course_1,
+    .course_2,
+    .course_3,
+    .course_4 {
         background-size: 100% 240px;
         height: 240px;
     }

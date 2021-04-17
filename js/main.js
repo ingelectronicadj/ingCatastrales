@@ -12,8 +12,12 @@ $(function() {
     $(".submenu-icon-movil").on("click", function() {
         $(".submenu-movil").toggle("slow");
     });
-
+    // Trancision para desplegar opciones de submenu
     $(".submenu-icon").on("click", function() {
+        $(".submenu").toggle("slow");
+    });
+    // Transicion para cerrar submenu al clic de una opcion
+    $(".submenu li").on("click", function() {
         $(".submenu").toggle("slow");
     });
 
