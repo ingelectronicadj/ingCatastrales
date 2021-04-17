@@ -752,6 +752,10 @@ header {
 /******* MEDIA QUERIES PARA CELULARES *******/
 
 @media screen and (max-width:425px) {
+    header {
+        background-image: url(../img/fondoInicioMovil.webp), url(../img/fondo-escala-de-colores-movil.webp);
+        background-blend-mode: multiply;
+    }
     .logo-mobile {
         width: 30%;
     }
@@ -843,6 +847,9 @@ header {
     .service_6 {
         background-size: 100% 280px;
         height: 280px;
+    }
+    .slick-arrow {
+        display: none !important;
     }
 }
 
