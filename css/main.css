@@ -127,6 +127,57 @@ header {
     background-position: top;
 }
 
+.service_1 {
+    background-image: url(../img/services/1.png);
+    background-size: 100% 350px;
+    height: 350px;
+}
+
+.service_2 {
+    background-image: url(../img/services/2.png);
+    background-size: 100% 350px;
+    height: 350px;
+}
+
+.service_3 {
+    background-image: url(../img/services/3.png);
+    background-size: 100% 350px;
+    height: 350px;
+}
+
+.service_4 {
+    background-image: url(../img/services/4.png);
+    background-size: 100% 350px;
+    height: 350px;
+}
+
+.service_5 {
+    background-image: url(../img/services/5.png);
+    background-size: 100% 350px;
+    height: 350px;
+}
+
+.service_6 {
+    background-image: url(../img/services/6.png);
+    background-size: 100% 350px;
+    height: 350px;
+}
+
+.slick-slide {
+    margin: 0 16px;
+}
+
+.container-carousel h3,
+.container-carousel p {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container-carousel p {
+    margin-top: 180px;
+}
+
 .container-intro-section {
     display: flex;
     width: 100%;
@@ -163,16 +214,11 @@ header {
 .carousel {
     width: 100%;
     margin: 0px auto;
+    margin-top: 3%
 }
 
 .container-carousel {
-    padding-left: 5%;
-}
-
-.container-carousel img {
-    width: 100%;
-    box-shadow: 10px 10px 21px #8CBF44;
-    border-radius: 20px;
+    padding: 20px 10px 10px 10px;
 }
 
 .container-business-identity {

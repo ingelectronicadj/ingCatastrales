@@ -67,8 +67,8 @@ $(document).ready(function() {
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
+        //autoplay: true,
+        //autoplaySpeed: 3000,
         dots: false,
         centerMode: true,
         responsive: [{
@@ -103,17 +103,5 @@ function descriptionMember(id_member) {
         html: '<h3 style="color:#fff;font-weight:600;">' + nameMember + '</h3> <p style="color:#fff;">' + descriptionMember + '</p>',
         showCloseButton: true,
         showConfirmButton: false
-    });
-}
-
-function showServiceModal(id_service) {
-    altTxt = document.getElementById(id_service).children[0].alt;
-    urlImg = document.getElementById(id_service).children[0].src;
-    Swal.fire({
-        background: '#021013',
-        showCloseButton: true,
-        showConfirmButton: false,
-        imageUrl: urlImg,
-        imageAlt: altTxt
     });
 }
