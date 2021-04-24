@@ -960,6 +960,12 @@ header {
     .slick-arrow {
         display: none !important;
     }
+    .container-col-team {
+        width: 100%;
+    }
+    .hidden-mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width:375px) {
