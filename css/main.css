@@ -372,7 +372,7 @@ header {
 }
 
 .legend-member-mobile {
-    display: block;
+    display: none;
     font-size: 0.88rem;
     line-height: 1.1rem;
 }
@@ -703,6 +703,9 @@ header {
     .header__content h1 {
         margin-top: 22%;
     }
+    .text-service {
+        margin-top: 170px !important;
+    }
 }
 
 
@@ -949,7 +952,7 @@ header {
         display: none;
     }
     .legend-member-mobile {
-        font-size: 0.8rem;
+        display: block;
         padding: 0 5px;
     }
     .container-contact {
@@ -992,6 +995,9 @@ header {
         background-size: 100% 280px;
         height: 280px;
     }
+    .title-service-mobile {
+        font-size: 1rem !important;
+    }
     .slick-arrow {
         display: none !important;
     }
@@ -1013,6 +1019,9 @@ header {
     }
     .team-description-text h3 {
         font-size: 1rem !important;
+    }
+    .container-carousel h3 {
+        font-size: 1.2rem;
     }
 }
 
