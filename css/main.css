@@ -200,6 +200,10 @@ header {
     margin-top: 180px;
 }
 
+.course-text {
+    margin-top: 200px !important;
+}
+
 .container-intro-section {
     display: flex;
     width: 100%;
@@ -967,7 +971,7 @@ header {
         display: none;
     }
     .team-member img {
-        height: 140px;
+        height: 130px;
     }
 }
 
