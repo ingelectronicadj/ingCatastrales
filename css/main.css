@@ -253,6 +253,7 @@ header {
 
 .container-carousel {
     padding: 20px 10px 10px 10px;
+    border-radius: 20px;
 }
 
 .container-business-identity {
