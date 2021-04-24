@@ -1024,6 +1024,9 @@ header {
     .container-carousel h3 {
         font-size: 1.2rem;
     }
+    .course-text {
+        margin-top: 155px !important;
+    }
 }
 
 @media screen and (max-width:375px) {
