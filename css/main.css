@@ -284,6 +284,14 @@ header {
     text-align: center;
 }
 
+.container-col-team {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .container-team {
     display: flex;
     width: 100%;
@@ -293,19 +301,40 @@ header {
 }
 
 .team-member {
-    width: 15%;
+    width: 18%;
     text-align: right;
 }
 
 .team-member img {
     margin: 5px 15px;
-    width: 140px;
+    height: 200px;
     border-radius: 5px;
 }
 
 .team-description {
-    width: 70%;
+    width: 75%;
     color: #fff;
+}
+
+.team-legal-ceo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-description-img {
+    width: 25%;
+}
+
+.team-description-text {
+    width: 75%;
+}
+
+.team-description-img img {
+    width: 90%;
+    border-radius: 5px;
+    border: #fff 1px solid;
 }
 
 .team-description h3 {
@@ -326,7 +355,8 @@ header {
 }
 
 .legend-member {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.1rem;
 }
 
 #contact h2 {
@@ -663,7 +693,7 @@ header {
     #id_team h2 {
         padding: 0;
         margin: 0;
-        text-align: right;
+        text-align: center;
     }
     .container-map-city {
         width: 20%;
@@ -673,17 +703,31 @@ header {
         height: 200px;
     }
     .team-member img {
-        margin: 0 10px;
+        margin: 0px;
         width: 110px;
     }
     .legend-member {
         font-size: 0.88rem;
+        line-height: 1.1rem;
     }
     .container-business-identity {
         margin-top: 0px;
     }
     .carousel {
         width: 85%;
+    }
+    .team-description h3 {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
+    .team-description-img {
+        width: 17%;
+    }
+    .team-description-text {
+        width: 83%;
     }
 }
 
@@ -727,6 +771,12 @@ header {
     .container-carousel p {
         margin-top: 180px;
         font-size: 13px;
+    }
+    .team-description-img {
+        width: 25%;
+    }
+    .team-description-text {
+        width: 75%;
     }
 }
 
