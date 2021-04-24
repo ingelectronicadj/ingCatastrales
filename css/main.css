@@ -839,6 +839,9 @@ header {
         font-size: 12px;
         line-height: 12px;
     }
+    .course-text {
+        margin-top: 173px !important;
+    }
     .service_1,
     .service_2,
     .service_3,
@@ -971,7 +974,7 @@ header {
         display: none;
     }
     .team-member img {
-        height: 130px;
+        height: 120px;
     }
 }
 
@@ -992,6 +995,9 @@ header {
         margin-top: 124px;
         font-size: 10px;
         line-height: 10px;
+    }
+    .course-text {
+        margin-top: 144px !important;
     }
     .service_1,
     .service_2,
@@ -1028,6 +1034,9 @@ header {
         margin-top: 110px;
         font-size: 9px;
         line-height: 9px;
+    }
+    .course-text {
+        margin-top: 130px !important;
     }
     .service_1,
     .service_2,
