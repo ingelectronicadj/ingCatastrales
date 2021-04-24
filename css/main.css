@@ -196,8 +196,16 @@ header {
     text-shadow: 2px 2px 4px #000000;
 }
 
+.course-title {
+    font-size: 1.3rem !important;
+}
+
 .container-carousel p {
     margin-top: 180px;
+}
+
+.text-service {
+    margin-top: 150px !important;
 }
 
 .course-text {
@@ -360,6 +368,12 @@ header {
 
 .legend-member {
     font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+.legend-member-mobile {
+    display: block;
+    font-size: 0.88rem;
     line-height: 1.1rem;
 }
 
@@ -652,6 +666,10 @@ header {
     color: red;
 }
 
+.container-carousel h3 {
+    text-transform: uppercase;
+}
+
 
 /* Estilos para el scroll*/
 
@@ -834,6 +852,9 @@ header {
     .container-carousel h3 {
         font-size: 1.4rem;
     }
+    .course-title {
+        font-size: 1.2rem !important;
+    }
     .container-carousel p {
         margin-top: 153px;
         font-size: 12px;
@@ -924,6 +945,13 @@ header {
     .legend-member {
         display: none;
     }
+    .team-member img {
+        display: none;
+    }
+    .legend-member-mobile {
+        font-size: 0.8rem;
+        padding: 0 5px;
+    }
     .container-contact {
         width: 100%;
     }
@@ -976,6 +1004,16 @@ header {
     .team-member img {
         height: 120px;
     }
+    .course-title {
+        font-size: 1rem !important;
+    }
+    .team-legal-ceo,
+    .team-description h3 {
+        padding: 0 5%;
+    }
+    .team-description-text h3 {
+        font-size: 1rem !important;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -990,6 +1028,9 @@ header {
     }
     .container-carousel h3 {
         font-size: 1.2rem;
+    }
+    .course-title {
+        font-size: 1rem !important;
     }
     .container-carousel p {
         margin-top: 124px;
