@@ -148,11 +148,11 @@ header {
 }
 
 .service_5 {
-    background-image: url(../img/services/5.png);
+    background-image: url(../img/services/6.png);
 }
 
 .service_6 {
-    background-image: url(../img/services/6.png);
+    background-image: url(../img/services/5.png);
 }
 
 .course_1 {
@@ -197,19 +197,22 @@ header {
 }
 
 .course-title {
-    font-size: 1.3rem !important;
+    font-size: 1.3rem;
 }
 
-.container-carousel p {
-    margin-top: 180px;
+.text-service-2 {
+    margin-top: 150px;
+    line-height: 1.2rem;
 }
 
-.text-service {
-    margin-top: 150px !important;
+.text-service-1 {
+    margin-top: 150px;
+    line-height: 1.2rem;
 }
 
 .course-text {
-    margin-top: 200px !important;
+    margin-top: 200px;
+    line-height: 1.1rem;
 }
 
 .container-intro-section {
@@ -252,7 +255,7 @@ header {
 }
 
 .container-carousel {
-    padding: 20px 10px 10px 10px;
+    padding: 15px 10px 10px 10px;
     border-radius: 20px;
 }
 
@@ -702,8 +705,11 @@ header {
     .header__content h1 {
         margin-top: 18%;
     }
-    .text-service {
-        margin-top: 170px !important;
+    .text-service-2 {
+        margin-top: 170px;
+    }
+    .text-service-1 {
+        margin-top: 200px;
     }
 }
 
@@ -753,6 +759,15 @@ header {
     .team-description-text {
         width: 83%;
     }
+    .text-service-2 {
+        margin-top: 170px;
+    }
+    .text-service-1 {
+        margin-top: 180px;
+    }
+    .container-carousel h3 {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -767,6 +782,12 @@ header {
     }
     .carousel {
         width: 95%;
+    }
+    .text-service-1 {
+        margin-top: 200px;
+    }
+    .course-title {
+        font-size: 1.4rem;
     }
 }
 
@@ -792,8 +813,11 @@ header {
     .carousel {
         width: 90%;
     }
-    .container-carousel p {
-        margin-top: 180px;
+    .text-service-2 {
+        margin-top: 175px;
+        font-size: 13px;
+    }
+    .text-service-1 {
         font-size: 13px;
     }
     .team-description-img {
@@ -801,6 +825,9 @@ header {
     }
     .team-description-text {
         width: 75%;
+    }
+    .container-carousel h3 {
+        font-size: 1.2rem;
     }
 }
 
@@ -855,15 +882,24 @@ header {
         font-size: 1.4rem;
     }
     .course-title {
-        font-size: 1.2rem !important;
+        font-size: 1.2rem;
     }
-    .container-carousel p {
+    .course-text {
+        font-size: 0.8rem;
+        line-height: 12px;
+    }
+    .text-service-2 {
         margin-top: 153px;
         font-size: 12px;
         line-height: 12px;
     }
+    .text-service-1 {
+        margin-top: 180px;
+        font-size: 12px;
+        line-height: 12px;
+    }
     .course-text {
-        margin-top: 173px !important;
+        margin-top: 173px;
     }
     .service_1,
     .service_2,
@@ -877,6 +913,9 @@ header {
     .course_4 {
         background-size: 100% 300px;
         height: 300px;
+    }
+    .container-carousel h3 {
+        font-size: 0.9rem;
     }
 }
 
@@ -994,9 +1033,6 @@ header {
         background-size: 100% 280px;
         height: 280px;
     }
-    .title-service-mobile {
-        font-size: 1rem !important;
-    }
     .slick-arrow {
         display: none !important;
     }
@@ -1010,7 +1046,7 @@ header {
         height: 120px;
     }
     .course-title {
-        font-size: 1rem !important;
+        font-size: 1rem;
     }
     .team-legal-ceo,
     .team-description h3 {
@@ -1023,7 +1059,16 @@ header {
         font-size: 1.2rem;
     }
     .course-text {
-        margin-top: 155px !important;
+        margin-top: 155px;
+    }
+    .text-service-2 {
+        margin-top: 140px;
+    }
+    .text-service-1 {
+        margin-top: 150px;
+    }
+    .title-service-mobile {
+        font-size: 1rem !important;
     }
 }
 
@@ -1038,18 +1083,20 @@ header {
         width: 340px;
     }
     .container-carousel h3 {
-        font-size: 1.2rem;
+        font-size: 0.8rem !important;
     }
     .course-title {
-        font-size: 1rem !important;
+        font-size: 1rem;
     }
-    .container-carousel p {
-        margin-top: 124px;
+    .text-service-2 {
+        margin-top: 115px;
         font-size: 10px;
         line-height: 10px;
     }
-    .course-text {
-        margin-top: 144px !important;
+    .text-service-1 {
+        margin-top: 135px;
+        font-size: 10px;
+        line-height: 10px;
     }
     .service_1,
     .service_2,
@@ -1063,6 +1110,10 @@ header {
     .course_4 {
         background-size: 100% 240px;
         height: 240px;
+    }
+    .course-text {
+        font-size: 0.65rem;
+        margin-top: 130px;
     }
 }
 
@@ -1082,13 +1133,18 @@ header {
     .container-carousel h3 {
         font-size: 0.8rem;
     }
-    .container-carousel p {
-        margin-top: 110px;
+    .text-service-2 {
+        margin-top: 105px;
+        font-size: 9px;
+        line-height: 9px;
+    }
+    .text-service-1 {
+        margin-top: 120px;
         font-size: 9px;
         line-height: 9px;
     }
     .course-text {
-        margin-top: 130px !important;
+        margin-top: 130px;
     }
     .service_1,
     .service_2,
@@ -1098,5 +1154,8 @@ header {
     .service_6 {
         background-size: 100% 220px;
         height: 220px;
+    }
+    .container-carousel h3 {
+        font-size: 0.6rem !important;
     }
 }
