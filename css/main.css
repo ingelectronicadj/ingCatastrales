@@ -1070,6 +1070,15 @@ header {
     .title-service-mobile {
         font-size: 0.85rem !important;
     }
+    .container-maps {
+        flex-direction: column;
+    }
+    .container-map-city {
+        width: 80%;
+    }
+    #contact p {
+        margin-bottom: 0.4rem;
+    }
 }
 
 @media screen and (max-width:375px) {
